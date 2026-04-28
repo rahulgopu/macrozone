@@ -7,6 +7,7 @@ import {
 	TouchableOpacity,
 	View,
 } from "react-native";
+import * as Haptics from 'expo-haptics';
 
 import { addMeal } from "@/storage/meals";
 import { colors, globalStyles } from "@/styles/global";
@@ -40,6 +41,7 @@ export default function AddMealScreen() {
 		setFat("");
 
 		Alert.alert("Success", "Meal added successfully!");
+		Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
 
 		router.push("/");
 	};
