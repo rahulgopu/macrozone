@@ -2,10 +2,13 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## MacroZone Mobile App
+## Project Overview
 
-<img width="536" height="1080" alt="screen" src="https://github.com/user-attachments/assets/c050e67d-8f62-46ce-ac82-e499d1a1ef2f" />
+The project is a simple macro tracking app called MacroZone that allows users to add meals and track their macros (calories, protein, carbs, fat). The app has a home screen that displays the current date, a grid of macro cards showing the total macros for the day, and a list of recent meals. There is also a screen for adding new meals and a screen for viewing all meals.
 
+<p align="center">
+  <img src="assets/screen.png" alt="MacroZone App" width="300" />
+</p>
 
 ## Get started
 
