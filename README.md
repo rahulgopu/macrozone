@@ -2,6 +2,11 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
+## MacroZone Mobile App
+
+<img width="536" height="1080" alt="screen" src="https://github.com/user-attachments/assets/c050e67d-8f62-46ce-ac82-e499d1a1ef2f" />
+
+
 ## Get started
 
 1. Install dependencies
