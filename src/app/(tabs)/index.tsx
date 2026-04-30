@@ -2,6 +2,8 @@ import HomeHeader from "@/components/HomeHeader";
 import MacroGrid from "@/components/MacroGrid";
 import RecentMeals from "@/components/RecentMeals";
 import ShareButton from "@/components/ShareButton";
+import CopyButton from "@/components/CopyButton";
+import ReminderToggle from "@/components/ReminderToggle";
 import { getMeals, Meal } from "@/storage/meals";
 import { globalStyles } from "@/styles/global";
 import { useFocusEffect } from "expo-router";
@@ -31,6 +33,8 @@ export default function HomeScreen() {
 			</View>
 			<HomeHeader />
 			<MacroGrid meals={meals} />
+			<CopyButton meals={meals} />
+			<ReminderToggle />
 			<RecentMeals meals={meals} onDelete={loadMeals} />
 		</ScrollView>
 	);
